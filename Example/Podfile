@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PQChartView_Example' do
+  pod 'PQChartView', :path => '../'
+
+  target 'PQChartView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

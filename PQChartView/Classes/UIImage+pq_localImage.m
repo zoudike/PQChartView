@@ -18,7 +18,7 @@
     }
     NSString *localImageName = [NSString stringWithFormat:@"%@%@",imageName,suffix];
     NSBundle *currentBundle = [NSBundle bundleForClass:NSClassFromString(@"PQChartView")];
-    NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
+    NSString *currentBundleName = @"PQChartView";
     NSString *imagePath = [currentBundle pathForResource:localImageName ofType:@"png" inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
     return [UIImage imageWithContentsOfFile:imagePath];
 }

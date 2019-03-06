@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0E481E3B81A9151355A52D75B97F9482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3D14F744E3DC1ADF3622E0E80C6CF30F /* PQChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		408AF1ABDE1C9B0B7D2A8F45242661AE /* PQChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */; };
-		4A9BEA18C5450718117008E5BB2D8F42 /* PQChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161B45293632A54B514AF5E0E61BD116 /* PQChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FC5E810320C549D3AF40B5A22FCFA /* PQChartPoint.m */; };
+		1B9CD4E0E4D8D790EBEACCA5C3D752F1 /* UIImage+pq_localImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DA21A69E46D71415EA9FC96FE2876C8E /* UIImage+pq_localImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39AD9A7E19D012E6E59A9875978BD1CF /* circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB67A5D45B393E1A3136AE3ABBE148 /* circle@3x.png */; };
+		3D86EB5928B859C6410C91BC4DBDE898 /* point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8551AE8F1C6E1FAABC4C84E54C6B8C /* point@3x.png */; };
+		5D19541D222F9D110048A25D /* PQChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D314A49FFE8DD6668E01F9A321308C /* PQChartView.framework */; };
+		5D19541E222F9E7F0048A25D /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EECAF0E5898A4DA629EFBF8565FF8B9 /* circle.png */; };
+		5D19541F222F9E7F0048A25D /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D9B60F5EECA16B64A8D4FF103CAB26 /* circle@2x.png */; };
+		5D195420222F9E7F0048A25D /* circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCB67A5D45B393E1A3136AE3ABBE148 /* circle@3x.png */; };
+		5D195421222F9E7F0048A25D /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0ADDD0FA2D580E86CA0B42E36C20C8 /* point.png */; };
+		5D195422222F9E7F0048A25D /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA740297CF6CDAFDF6B54EFAEC1AEDD /* point@2x.png */; };
+		5D195423222F9E7F0048A25D /* point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8551AE8F1C6E1FAABC4C84E54C6B8C /* point@3x.png */; };
+		5DEA49D694B71715A200AAB297F5B526 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D9B60F5EECA16B64A8D4FF103CAB26 /* circle@2x.png */; };
 		68FA0C95BC261093075BCCAD37355870 /* Pods-PQChartView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B132516B35DDB5E938A9DA8697940920 /* Pods-PQChartView_Example-dummy.m */; };
-		7F185517218519E3B536E6807165EC97 /* PQChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */; };
+		71C3B0B48DC04778DE8AC30CF9082AF3 /* PQChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EBFB7F041765B3168C25B7AF23428B /* PQChartPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C1BE09A211AE527BC09F965A271E63F /* PQChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9582AE806B3571D23D0A42FD7861B94E /* PQChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925C92665C18B53EBBA8D17F63F45707 /* PQChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5DB5F27F0395B3ED9989406429B50C /* PQChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E73368FF8DB80F3EDF0D9A449A1BFB /* PQChartView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8765A458B108285B0C8B44F5BCE3F305 /* PQChartView.bundle */; };
 		97EFA5EC6DD5EDAB680088E9DA957E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		A3BD00F03013BE58B5C656F2AB0BDE64 /* PQChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */; };
-		C43A67133A18B17A3C0DF1247EC9B414 /* PQChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A654665BFC0BEC7EDF3BC759C13F628B /* PQChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D3CCF6D271AB79D21FDB22C58E87B6 /* PQChartView.m */; };
 		C537245536F457DF10CFF4BEDC8120ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		C64FCE114C451D82AB3415AF9B181937 /* Pods-PQChartView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02313A926F8C004DA763E24FBD4D806 /* Pods-PQChartView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2332A87A9FE0C0A5D2367B978C79AE3 /* UIImage+pq_localImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DAE5DA198EFCFF8C9AB9E152B5ACC3 /* UIImage+pq_localImage.m */; };
+		DEA74C01EAE68AB22EDF43E81CE40DA9 /* PQChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE7C3B4910ACF787372FCA9DF9D75F /* PQChartView-dummy.m */; };
 		E283CDB23426D9C4ADA162668DBAA113 /* Pods-PQChartView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C6E2C60AAF9BA494A264AF74F3B846 /* Pods-PQChartView_Tests-dummy.m */; };
 		E9B34F47DF62101B0D5696C8EF885642 /* Pods-PQChartView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5C75ACD132BF2388FAB994246F9CE0 /* Pods-PQChartView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1C78E2693EC13633C1E9922A9E0BBD /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EECAF0E5898A4DA629EFBF8565FF8B9 /* circle.png */; };
+		F20942F280164A20279A51EDD1830601 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0ADDD0FA2D580E86CA0B42E36C20C8 /* point.png */; };
+		F39194E3CA55837F6E6DEAC33820F553 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA740297CF6CDAFDF6B54EFAEC1AEDD /* point@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +45,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C227231B2F0B9572884675FDCD34787B;
 			remoteInfo = PQChartView;
+		};
+		0D89299F21445081723E69E498A7BC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A5B60DFC31EFB6081C89664D3CB764;
+			remoteInfo = "PQChartView-PQChartView";
 		};
 		342AA3212FBA219157D24D13754ACA42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -41,42 +64,52 @@
 
 /* Begin PBXFileReference section */
 		0A28B36614BE00FE4116B0BF9057C61C /* Pods-PQChartView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQChartView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CA740297CF6CDAFDF6B54EFAEC1AEDD /* point@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "point@2x.png"; path = "PQChartView/Assets/point@2x.png"; sourceTree = "<group>"; };
+		0EECAF0E5898A4DA629EFBF8565FF8B9 /* circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = circle.png; path = PQChartView/Assets/circle.png; sourceTree = "<group>"; };
 		1C42CE0B11E7706D40E7608F15E03710 /* Pods-PQChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PQChartView_Example.framework; path = "Pods-PQChartView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5DB5F27F0395B3ED9989406429B50C /* PQChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-umbrella.h"; sourceTree = "<group>"; };
 		1F4466F8D543F15BCDC99DEC5B5A79D3 /* Pods-PQChartView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Tests-resources.sh"; sourceTree = "<group>"; };
 		1F5C75ACD132BF2388FAB994246F9CE0 /* Pods-PQChartView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQChartView_Example-umbrella.h"; sourceTree = "<group>"; };
-		2170D70D6BF3297F9F72BC6272D8E90E /* PQChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PQChartView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21186269F3226110BA4D988730B78270 /* Pods_PQChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQChartView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C37A02EDE80A4E96E231C1CCD8768F /* Pods-PQChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B6F54925904AE786F3FAA77CB5789FC /* PQChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PQChartView.modulemap; sourceTree = "<group>"; };
-		4528F7ECA05DF2215BC66006303BC253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartView.h; path = PQChartView/Classes/PQChartView.h; sourceTree = "<group>"; };
-		4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PQChartView_Tests.framework; path = "Pods-PQChartView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		719716D5A9AF24001479DBC4FB2510B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		29D9B60F5EECA16B64A8D4FF103CAB26 /* circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle@2x.png"; path = "PQChartView/Assets/circle@2x.png"; sourceTree = "<group>"; };
+		3BCB67A5D45B393E1A3136AE3ABBE148 /* circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle@3x.png"; path = "PQChartView/Assets/circle@3x.png"; sourceTree = "<group>"; };
+		4593A304FB333E86F3F5F1B43B7BF901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4B4B8F96FEC2FD41EA83AF264DBD18CD /* Pods_PQChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQChartView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8551AE8F1C6E1FAABC4C84E54C6B8C /* point@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "point@3x.png"; path = "PQChartView/Assets/point@3x.png"; sourceTree = "<group>"; };
+		51D3CCF6D271AB79D21FDB22C58E87B6 /* PQChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartView.m; path = PQChartView/Classes/PQChartView.m; sourceTree = "<group>"; };
+		60D314A49FFE8DD6668E01F9A321308C /* PQChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PQChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		617DA96E596F31AC0260B589DD7AD55E /* PQChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PQChartView.modulemap; sourceTree = "<group>"; };
+		657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQChartView.xcconfig; sourceTree = "<group>"; };
 		75C6E2C60AAF9BA494A264AF74F3B846 /* Pods-PQChartView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQChartView_Tests-dummy.m"; sourceTree = "<group>"; };
+		780715BC610DA83FB63C99F7DD5E7B80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0ADDD0FA2D580E86CA0B42E36C20C8 /* point.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = point.png; path = PQChartView/Assets/point.png; sourceTree = "<group>"; };
+		808FC5E810320C549D3AF40B5A22FCFA /* PQChartPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartPoint.m; path = PQChartView/Classes/PQChartPoint.m; sourceTree = "<group>"; };
+		8203CE01821924510A339147C24FC6E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		842C966747A68D43002820CA54DAA885 /* Pods-PQChartView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartPoint.h; path = PQChartView/Classes/PQChartPoint.h; sourceTree = "<group>"; };
-		8B5CC83C9CA9BF264E8E5DBBDCF93D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8765A458B108285B0C8B44F5BCE3F305 /* PQChartView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQChartView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E035959AD8150602F8E4D6778D9752C /* Pods-PQChartView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8FA7BD0283805D0AAE16800A47035447 /* PQChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9582AE806B3571D23D0A42FD7861B94E /* PQChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartView.h; path = PQChartView/Classes/PQChartView.h; sourceTree = "<group>"; };
 		95F3805F34D763E1964E48544C8B5ADD /* Pods-PQChartView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Example-resources.sh"; sourceTree = "<group>"; };
+		97EBFB7F041765B3168C25B7AF23428B /* PQChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartPoint.h; path = PQChartView/Classes/PQChartPoint.h; sourceTree = "<group>"; };
 		997F7D5CBF1B136DE39F974D48EB528A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A5CA2510BB7DE5A7ED27771CE056EA4 /* Pods-PQChartView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PQChartView_Tests.modulemap"; sourceTree = "<group>"; };
 		9FC12B812E95D606297D98E4E56A53BF /* Pods-PQChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A02313A926F8C004DA763E24FBD4D806 /* Pods-PQChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartView.m; path = PQChartView/Classes/PQChartView.m; sourceTree = "<group>"; };
-		ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartPoint.m; path = PQChartView/Classes/PQChartPoint.m; sourceTree = "<group>"; };
 		B0D05F85BC5FB9ABBB1799E490255416 /* Pods-PQChartView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B132516B35DDB5E938A9DA8697940920 /* Pods-PQChartView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQChartView_Example-dummy.m"; sourceTree = "<group>"; };
-		B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PQChartView.framework; path = PQChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5086298897DD02D02A024AE229719EE /* PQChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PQChartView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5F0EC720140F23C62923120F0732950 /* PQChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-prefix.pch"; sourceTree = "<group>"; };
+		B8DAE5DA198EFCFF8C9AB9E152B5ACC3 /* UIImage+pq_localImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+pq_localImage.m"; path = "PQChartView/Classes/UIImage+pq_localImage.m"; sourceTree = "<group>"; };
+		C0ABA7C43F678885B9AFB09D289360B3 /* ResourceBundle-PQChartView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PQChartView-Info.plist"; sourceTree = "<group>"; };
 		C29690B38F19169AE0EB732DCC3F1BB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-umbrella.h"; sourceTree = "<group>"; };
 		D1A5509A249467F5CD15E881CC40C3DE /* Pods-PQChartView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQChartView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQChartView.xcconfig; sourceTree = "<group>"; };
+		DA21A69E46D71415EA9FC96FE2876C8E /* UIImage+pq_localImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+pq_localImage.h"; path = "PQChartView/Classes/UIImage+pq_localImage.h"; sourceTree = "<group>"; };
 		E028FFF4EF8870667F591F275716F9A3 /* Pods-PQChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0E26D47EC351C2414749413C1CA0B71 /* Pods-PQChartView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQChartView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQChartView-dummy.m"; sourceTree = "<group>"; };
+		EAAE7C3B4910ACF787372FCA9DF9D75F /* PQChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQChartView-dummy.m"; sourceTree = "<group>"; };
 		FDD773B713AE341BFFDA064549FA5905 /* Pods-PQChartView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PQChartView_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +119,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				97EFA5EC6DD5EDAB680088E9DA957E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363A4E58DCA1FB612EE280CFEFC6B00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D19541D222F9D110048A25D /* PQChartView.framework in Frameworks */,
 				0E481E3B81A9151355A52D75B97F9482 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,14 +149,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		357DEDD5E6E145FFE36E0F028158D987 /* Products */ = {
+		007A13B86648F7BF888668474063CF2B /* PQChartView */ = {
 			isa = PBXGroup;
 			children = (
-				1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */,
-				4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */,
-				B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */,
+				97EBFB7F041765B3168C25B7AF23428B /* PQChartPoint.h */,
+				808FC5E810320C549D3AF40B5A22FCFA /* PQChartPoint.m */,
+				9582AE806B3571D23D0A42FD7861B94E /* PQChartView.h */,
+				51D3CCF6D271AB79D21FDB22C58E87B6 /* PQChartView.m */,
+				DA21A69E46D71415EA9FC96FE2876C8E /* UIImage+pq_localImage.h */,
+				B8DAE5DA198EFCFF8C9AB9E152B5ACC3 /* UIImage+pq_localImage.m */,
+				B2D232903BE0BB59B97C1699642D4D42 /* Pod */,
+				9901B8E4EC311686093A1AB6BE53BCF7 /* Resources */,
+				8B83DC50AAB17F1875B5F7F00FC16582 /* Support Files */,
 			);
-			name = Products;
+			name = PQChartView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		12BFA8E17D22D8823097202C2153FA51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				007A13B86648F7BF888668474063CF2B /* PQChartView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -124,6 +180,17 @@
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		4943EEA387177F8D963E74A7353CFCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4B8F96FEC2FD41EA83AF264DBD18CD /* Pods_PQChartView_Example.framework */,
+				21186269F3226110BA4D988730B78270 /* Pods_PQChartView_Tests.framework */,
+				8765A458B108285B0C8B44F5BCE3F305 /* PQChartView.bundle */,
+				60D314A49FFE8DD6668E01F9A321308C /* PQChartView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		77F209FF0A5724CE31F17D21969A1261 /* Targets Support Files */ = {
@@ -139,49 +206,39 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				AB47B7438A79418F789E3C0CE0EF70AD /* Development Pods */,
+				12BFA8E17D22D8823097202C2153FA51 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				357DEDD5E6E145FFE36E0F028158D987 /* Products */,
+				4943EEA387177F8D963E74A7353CFCFE /* Products */,
 				77F209FF0A5724CE31F17D21969A1261 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E72EC8D3BAFD04F5F8D9AA99BD2E821 /* PQChartView */ = {
+		8B83DC50AAB17F1875B5F7F00FC16582 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */,
-				ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */,
-				496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */,
-				A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */,
-				921B30EF0E0A740D64940B8FADCD4301 /* Pod */,
-				8F79E7E87DCD388BDD6DA3409F7BFC0F /* Support Files */,
-			);
-			name = PQChartView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8F79E7E87DCD388BDD6DA3409F7BFC0F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4528F7ECA05DF2215BC66006303BC253 /* Info.plist */,
-				2B6F54925904AE786F3FAA77CB5789FC /* PQChartView.modulemap */,
-				DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */,
-				F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */,
-				8FA7BD0283805D0AAE16800A47035447 /* PQChartView-prefix.pch */,
-				C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */,
+				780715BC610DA83FB63C99F7DD5E7B80 /* Info.plist */,
+				617DA96E596F31AC0260B589DD7AD55E /* PQChartView.modulemap */,
+				657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */,
+				EAAE7C3B4910ACF787372FCA9DF9D75F /* PQChartView-dummy.m */,
+				B5F0EC720140F23C62923120F0732950 /* PQChartView-prefix.pch */,
+				1D5DB5F27F0395B3ED9989406429B50C /* PQChartView-umbrella.h */,
+				C0ABA7C43F678885B9AFB09D289360B3 /* ResourceBundle-PQChartView-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PQChartView";
 			sourceTree = "<group>";
 		};
-		921B30EF0E0A740D64940B8FADCD4301 /* Pod */ = {
+		9901B8E4EC311686093A1AB6BE53BCF7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B5CC83C9CA9BF264E8E5DBBDCF93D2E /* LICENSE */,
-				2170D70D6BF3297F9F72BC6272D8E90E /* PQChartView.podspec */,
-				719716D5A9AF24001479DBC4FB2510B8 /* README.md */,
+				0EECAF0E5898A4DA629EFBF8565FF8B9 /* circle.png */,
+				29D9B60F5EECA16B64A8D4FF103CAB26 /* circle@2x.png */,
+				3BCB67A5D45B393E1A3136AE3ABBE148 /* circle@3x.png */,
+				7C0ADDD0FA2D580E86CA0B42E36C20C8 /* point.png */,
+				0CA740297CF6CDAFDF6B54EFAEC1AEDD /* point@2x.png */,
+				4E8551AE8F1C6E1FAABC4C84E54C6B8C /* point@3x.png */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9FFC0E367588A19B2690D9460AC5E009 /* Pods-PQChartView_Example */ = {
@@ -202,12 +259,14 @@
 			path = "Target Support Files/Pods-PQChartView_Example";
 			sourceTree = "<group>";
 		};
-		AB47B7438A79418F789E3C0CE0EF70AD /* Development Pods */ = {
+		B2D232903BE0BB59B97C1699642D4D42 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7E72EC8D3BAFD04F5F8D9AA99BD2E821 /* PQChartView */,
+				8203CE01821924510A339147C24FC6E7 /* LICENSE */,
+				B5086298897DD02D02A024AE229719EE /* PQChartView.podspec */,
+				4593A304FB333E86F3F5F1B43B7BF901 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -239,13 +298,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1FE9E0AC0AFE22968AFCB1525F683211 /* Headers */ = {
+		C4FF144EE133D600DA2663085DF98744 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43A67133A18B17A3C0DF1247EC9B414 /* PQChartPoint.h in Headers */,
-				4A9BEA18C5450718117008E5BB2D8F42 /* PQChartView-umbrella.h in Headers */,
-				3D14F744E3DC1ADF3622E0E80C6CF30F /* PQChartView.h in Headers */,
+				71C3B0B48DC04778DE8AC30CF9082AF3 /* PQChartPoint.h in Headers */,
+				925C92665C18B53EBBA8D17F63F45707 /* PQChartView-umbrella.h in Headers */,
+				8C1BE09A211AE527BC09F965A271E63F /* PQChartView.h in Headers */,
+				1B9CD4E0E4D8D790EBEACCA5C3D752F1 /* UIImage+pq_localImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,22 +328,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C227231B2F0B9572884675FDCD34787B /* PQChartView */ = {
+		17A5B60DFC31EFB6081C89664D3CB764 /* PQChartView-PQChartView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C620EA520F715155C015C1323E888496 /* Build configuration list for PBXNativeTarget "PQChartView" */;
+			buildConfigurationList = A2AF59EFEA27D9260CAE51E2173ADBDD /* Build configuration list for PBXNativeTarget "PQChartView-PQChartView" */;
 			buildPhases = (
-				1FE9E0AC0AFE22968AFCB1525F683211 /* Headers */,
-				971FBDBDE51917B974909D9020F7A0A3 /* Sources */,
-				5BD04A41CB91030CADC687739E362C22 /* Frameworks */,
-				93B04FA89179DDD3EF54494AE61D4929 /* Resources */,
+				592952CA5B7D2F98E07D84F69E1445BE /* Sources */,
+				363A4E58DCA1FB612EE280CFEFC6B00C /* Frameworks */,
+				97FFE5B7ADDD300373D3E4D19C9D32D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "PQChartView-PQChartView";
+			productName = "PQChartView-PQChartView";
+			productReference = 8765A458B108285B0C8B44F5BCE3F305 /* PQChartView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C227231B2F0B9572884675FDCD34787B /* PQChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C620EA520F715155C015C1323E888496 /* Build configuration list for PBXNativeTarget "PQChartView" */;
+			buildPhases = (
+				C4FF144EE133D600DA2663085DF98744 /* Headers */,
+				0B3015E67E648FB6D67F1B9B2D7732D8 /* Sources */,
+				5BD04A41CB91030CADC687739E362C22 /* Frameworks */,
+				BFBF6C8DE2DE6754E40E662C8EFF5FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BD74616FD8BDBBF94B46376CB6FC70 /* PBXTargetDependency */,
+			);
 			name = PQChartView;
 			productName = PQChartView;
-			productReference = B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */;
+			productReference = 60D314A49FFE8DD6668E01F9A321308C /* PQChartView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */ = {
@@ -302,7 +380,7 @@
 			);
 			name = "Pods-PQChartView_Example";
 			productName = "Pods-PQChartView_Example";
-			productReference = 1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */;
+			productReference = 4B4B8F96FEC2FD41EA83AF264DBD18CD /* Pods_PQChartView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF1CBFA0F68994322FC4F651B255DCB6 /* Pods-PQChartView_Tests */ = {
@@ -321,7 +399,7 @@
 			);
 			name = "Pods-PQChartView_Tests";
 			productName = "Pods-PQChartView_Tests";
-			productReference = 4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */;
+			productReference = 21186269F3226110BA4D988730B78270 /* Pods_PQChartView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,22 +419,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 357DEDD5E6E145FFE36E0F028158D987 /* Products */;
+			productRefGroup = 4943EEA387177F8D963E74A7353CFCFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */,
 				FF1CBFA0F68994322FC4F651B255DCB6 /* Pods-PQChartView_Tests */,
 				C227231B2F0B9572884675FDCD34787B /* PQChartView */,
+				17A5B60DFC31EFB6081C89664D3CB764 /* PQChartView-PQChartView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93B04FA89179DDD3EF54494AE61D4929 /* Resources */ = {
+		97FFE5B7ADDD300373D3E4D19C9D32D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1C78E2693EC13633C1E9922A9E0BBD /* circle.png in Resources */,
+				5DEA49D694B71715A200AAB297F5B526 /* circle@2x.png in Resources */,
+				39AD9A7E19D012E6E59A9875978BD1CF /* circle@3x.png in Resources */,
+				F20942F280164A20279A51EDD1830601 /* point.png in Resources */,
+				F39194E3CA55837F6E6DEAC33820F553 /* point@2x.png in Resources */,
+				3D86EB5928B859C6410C91BC4DBDE898 /* point@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +449,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBF6C8DE2DE6754E40E662C8EFF5FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D19541E222F9E7F0048A25D /* circle.png in Resources */,
+				5D19541F222F9E7F0048A25D /* circle@2x.png in Resources */,
+				5D195420222F9E7F0048A25D /* circle@3x.png in Resources */,
+				5D195421222F9E7F0048A25D /* point.png in Resources */,
+				5D195422222F9E7F0048A25D /* point@2x.png in Resources */,
+				5D195423222F9E7F0048A25D /* point@3x.png in Resources */,
+				92E73368FF8DB80F3EDF0D9A449A1BFB /* PQChartView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +476,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B3015E67E648FB6D67F1B9B2D7732D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161B45293632A54B514AF5E0E61BD116 /* PQChartPoint.m in Sources */,
+				DEA74C01EAE68AB22EDF43E81CE40DA9 /* PQChartView-dummy.m in Sources */,
+				A654665BFC0BEC7EDF3BC759C13F628B /* PQChartView.m in Sources */,
+				D2332A87A9FE0C0A5D2367B978C79AE3 /* UIImage+pq_localImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2361CE56EC073AD31F592AAA9BFCD176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,13 +495,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		971FBDBDE51917B974909D9020F7A0A3 /* Sources */ = {
+		592952CA5B7D2F98E07D84F69E1445BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408AF1ABDE1C9B0B7D2A8F45242661AE /* PQChartPoint.m in Sources */,
-				A3BD00F03013BE58B5C656F2AB0BDE64 /* PQChartView-dummy.m in Sources */,
-				7F185517218519E3B536E6807165EC97 /* PQChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +524,12 @@
 			name = "Pods-PQChartView_Example";
 			target = C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */;
 			targetProxy = 342AA3212FBA219157D24D13754ACA42 /* PBXContainerItemProxy */;
+		};
+		55BD74616FD8BDBBF94B46376CB6FC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PQChartView-PQChartView";
+			target = 17A5B60DFC31EFB6081C89664D3CB764 /* PQChartView-PQChartView */;
+			targetProxy = 0D89299F21445081723E69E498A7BC6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -488,9 +601,25 @@
 			};
 			name = Release;
 		};
+		566369BF46CA10395BE86935CDA2AA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PQChartView";
+				INFOPLIST_FILE = "Target Support Files/PQChartView/ResourceBundle-PQChartView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PQChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5E0FA7A23686FB0A50A44AFE8269136A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */;
+			baseConfigurationReference = 657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -520,7 +649,7 @@
 		};
 		60D9AB086D05A41269903F034AEC9512 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */;
+			baseConfigurationReference = 657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -604,8 +733,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -744,6 +872,22 @@
 			};
 			name = Debug;
 		};
+		E8E64BC26ABE763583C4B6564AE1F0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657E9ABD9C79ABC06171DFA5819913AD /* PQChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PQChartView";
+				INFOPLIST_FILE = "Target Support Files/PQChartView/ResourceBundle-PQChartView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PQChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -770,6 +914,15 @@
 			buildConfigurations = (
 				D275B73BC0CB3DFDA6AEDF5BF7317457 /* Debug */,
 				B6CC03826A0E68E0772B9B82C4F925C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2AF59EFEA27D9260CAE51E2173ADBDD /* Build configuration list for PBXNativeTarget "PQChartView-PQChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E64BC26ABE763583C4B6564AE1F0E0 /* Debug */,
+				566369BF46CA10395BE86935CDA2AA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

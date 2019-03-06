@@ -12,6 +12,7 @@
 
 #import "PQChartPoint.h"
 #import "PQChartView.h"
+#import "UIImage+pq_localImage.h"
 
 FOUNDATION_EXPORT double PQChartViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char PQChartViewVersionString[];

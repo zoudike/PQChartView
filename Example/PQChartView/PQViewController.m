@@ -7,8 +7,8 @@
 //
 
 #import "PQViewController.h"
-#import <PQChartView/PQChartPoint.h>
 #import <PQChartView/PQChartView.h>
+#import <PQChartView/PQChartPoint.h>
 
 @interface PQViewController ()
 

@@ -7,6 +7,7 @@
 //
 
 #import "PQChartView.h"
+#import "UIImage+pq_localImage.h"
 
 #define kDefaultSingleWidth 74.0f
 
@@ -95,8 +96,8 @@
         CGFloat frameHeight = self.frame.size.height;
         CGFloat centerY = frameHeight - (self.startHeightScale * frameHeight + (dataY - self.min) / (self.max - self.min) * (self.endHeightScale - self.startHeightScale) * frameHeight);
         curBtn.center = CGPointMake(kLeftMargin + dataX * singleWidth, centerY);
-        [curBtn setBackgroundImage:[UIImage imageNamed:@"point"] forState:UIControlStateNormal];
-        [curBtn setBackgroundImage:[UIImage imageNamed:@"circle"] forState:UIControlStateSelected];
+        [curBtn setBackgroundImage:[UIImage pq_localImageName:@"circle"] forState:UIControlStateNormal];
+        [curBtn setBackgroundImage:[UIImage pq_localImageName:@"point"] forState:UIControlStateNormal];
         CGPoint point = CGPointMake(curBtn.center.x, curBtn.center.y);
         [tempArr addObject:@(point)];
     }

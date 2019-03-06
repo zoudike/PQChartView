@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PQChartView/Classes/**/*"
+  "source_files": "PQChartView/Classes/**/*",
+  "resource_bundles": {
+    "PQChartView": [
+      "PQChartView/Assets/*.*"
+    ]
+  }
 }

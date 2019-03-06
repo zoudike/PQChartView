@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E481E3B81A9151355A52D75B97F9482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		3D14F744E3DC1ADF3622E0E80C6CF30F /* PQChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408AF1ABDE1C9B0B7D2A8F45242661AE /* PQChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */; };
+		4A9BEA18C5450718117008E5BB2D8F42 /* PQChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FA0C95BC261093075BCCAD37355870 /* Pods-PQChartView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B132516B35DDB5E938A9DA8697940920 /* Pods-PQChartView_Example-dummy.m */; };
+		7F185517218519E3B536E6807165EC97 /* PQChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */; };
+		97EFA5EC6DD5EDAB680088E9DA957E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		A3BD00F03013BE58B5C656F2AB0BDE64 /* PQChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */; };
+		C43A67133A18B17A3C0DF1247EC9B414 /* PQChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C537245536F457DF10CFF4BEDC8120ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C64FCE114C451D82AB3415AF9B181937 /* Pods-PQChartView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02313A926F8C004DA763E24FBD4D806 /* Pods-PQChartView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E283CDB23426D9C4ADA162668DBAA113 /* Pods-PQChartView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C6E2C60AAF9BA494A264AF74F3B846 /* Pods-PQChartView_Tests-dummy.m */; };
+		E9B34F47DF62101B0D5696C8EF885642 /* Pods-PQChartView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5C75ACD132BF2388FAB994246F9CE0 /* Pods-PQChartView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C0C665E73E779B57B5DCFAB5167AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C227231B2F0B9572884675FDCD34787B;
+			remoteInfo = PQChartView;
+		};
+		342AA3212FBA219157D24D13754ACA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82D828A6B8AF5C467A56086F14786F1;
+			remoteInfo = "Pods-PQChartView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A28B36614BE00FE4116B0BF9057C61C /* Pods-PQChartView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQChartView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C42CE0B11E7706D40E7608F15E03710 /* Pods-PQChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PQChartView_Example.framework; path = "Pods-PQChartView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4466F8D543F15BCDC99DEC5B5A79D3 /* Pods-PQChartView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1F5C75ACD132BF2388FAB994246F9CE0 /* Pods-PQChartView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQChartView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2170D70D6BF3297F9F72BC6272D8E90E /* PQChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PQChartView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25C37A02EDE80A4E96E231C1CCD8768F /* Pods-PQChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6F54925904AE786F3FAA77CB5789FC /* PQChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PQChartView.modulemap; sourceTree = "<group>"; };
+		4528F7ECA05DF2215BC66006303BC253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartView.h; path = PQChartView/Classes/PQChartView.h; sourceTree = "<group>"; };
+		4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PQChartView_Tests.framework; path = "Pods-PQChartView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719716D5A9AF24001479DBC4FB2510B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75C6E2C60AAF9BA494A264AF74F3B846 /* Pods-PQChartView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQChartView_Tests-dummy.m"; sourceTree = "<group>"; };
+		842C966747A68D43002820CA54DAA885 /* Pods-PQChartView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PQChartPoint.h; path = PQChartView/Classes/PQChartPoint.h; sourceTree = "<group>"; };
+		8B5CC83C9CA9BF264E8E5DBBDCF93D2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8E035959AD8150602F8E4D6778D9752C /* Pods-PQChartView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8FA7BD0283805D0AAE16800A47035447 /* PQChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F3805F34D763E1964E48544C8B5ADD /* Pods-PQChartView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQChartView_Example-resources.sh"; sourceTree = "<group>"; };
+		997F7D5CBF1B136DE39F974D48EB528A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5CA2510BB7DE5A7ED27771CE056EA4 /* Pods-PQChartView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PQChartView_Tests.modulemap"; sourceTree = "<group>"; };
+		9FC12B812E95D606297D98E4E56A53BF /* Pods-PQChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A02313A926F8C004DA763E24FBD4D806 /* Pods-PQChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartView.m; path = PQChartView/Classes/PQChartView.m; sourceTree = "<group>"; };
+		ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PQChartPoint.m; path = PQChartView/Classes/PQChartPoint.m; sourceTree = "<group>"; };
+		B0D05F85BC5FB9ABBB1799E490255416 /* Pods-PQChartView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQChartView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B132516B35DDB5E938A9DA8697940920 /* Pods-PQChartView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQChartView_Example-dummy.m"; sourceTree = "<group>"; };
+		B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PQChartView.framework; path = PQChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29690B38F19169AE0EB732DCC3F1BB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQChartView-umbrella.h"; sourceTree = "<group>"; };
+		D1A5509A249467F5CD15E881CC40C3DE /* Pods-PQChartView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQChartView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQChartView.xcconfig; sourceTree = "<group>"; };
+		E028FFF4EF8870667F591F275716F9A3 /* Pods-PQChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0E26D47EC351C2414749413C1CA0B71 /* Pods-PQChartView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQChartView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQChartView-dummy.m"; sourceTree = "<group>"; };
+		FDD773B713AE341BFFDA064549FA5905 /* Pods-PQChartView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PQChartView_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06216038FC31DD839624F7FCCCF81063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EFA5EC6DD5EDAB680088E9DA957E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD04A41CB91030CADC687739E362C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537245536F457DF10CFF4BEDC8120ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97B5F95782832C400EC96C870662E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E481E3B81A9151355A52D75B97F9482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357DEDD5E6E145FFE36E0F028158D987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */,
+				4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */,
+				B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77F209FF0A5724CE31F17D21969A1261 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFC0E367588A19B2690D9460AC5E009 /* Pods-PQChartView_Example */,
+				E86ECD9B7943053DA260D46FF942D915 /* Pods-PQChartView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AB47B7438A79418F789E3C0CE0EF70AD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				357DEDD5E6E145FFE36E0F028158D987 /* Products */,
+				77F209FF0A5724CE31F17D21969A1261 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E72EC8D3BAFD04F5F8D9AA99BD2E821 /* PQChartView */ = {
+			isa = PBXGroup;
+			children = (
+				85A8DE28C72566FC31CD7664A0050975 /* PQChartPoint.h */,
+				ADA1F72503617E6CC732010B59598D90 /* PQChartPoint.m */,
+				496A8C6D840C884CF250A14376FABCDA /* PQChartView.h */,
+				A0F82D4B73971E7CE33CA390F74EC149 /* PQChartView.m */,
+				921B30EF0E0A740D64940B8FADCD4301 /* Pod */,
+				8F79E7E87DCD388BDD6DA3409F7BFC0F /* Support Files */,
+			);
+			name = PQChartView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F79E7E87DCD388BDD6DA3409F7BFC0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4528F7ECA05DF2215BC66006303BC253 /* Info.plist */,
+				2B6F54925904AE786F3FAA77CB5789FC /* PQChartView.modulemap */,
+				DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */,
+				F68E7557CE1D84612892C063E0DBB90F /* PQChartView-dummy.m */,
+				8FA7BD0283805D0AAE16800A47035447 /* PQChartView-prefix.pch */,
+				C7F4263F4538EFB6AB38BE99D79AEF3B /* PQChartView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PQChartView";
+			sourceTree = "<group>";
+		};
+		921B30EF0E0A740D64940B8FADCD4301 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B5CC83C9CA9BF264E8E5DBBDCF93D2E /* LICENSE */,
+				2170D70D6BF3297F9F72BC6272D8E90E /* PQChartView.podspec */,
+				719716D5A9AF24001479DBC4FB2510B8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9FFC0E367588A19B2690D9460AC5E009 /* Pods-PQChartView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C29690B38F19169AE0EB732DCC3F1BB1 /* Info.plist */,
+				FDD773B713AE341BFFDA064549FA5905 /* Pods-PQChartView_Example.modulemap */,
+				0A28B36614BE00FE4116B0BF9057C61C /* Pods-PQChartView_Example-acknowledgements.markdown */,
+				D1A5509A249467F5CD15E881CC40C3DE /* Pods-PQChartView_Example-acknowledgements.plist */,
+				B132516B35DDB5E938A9DA8697940920 /* Pods-PQChartView_Example-dummy.m */,
+				8E035959AD8150602F8E4D6778D9752C /* Pods-PQChartView_Example-frameworks.sh */,
+				95F3805F34D763E1964E48544C8B5ADD /* Pods-PQChartView_Example-resources.sh */,
+				1F5C75ACD132BF2388FAB994246F9CE0 /* Pods-PQChartView_Example-umbrella.h */,
+				9FC12B812E95D606297D98E4E56A53BF /* Pods-PQChartView_Example.debug.xcconfig */,
+				B0D05F85BC5FB9ABBB1799E490255416 /* Pods-PQChartView_Example.release.xcconfig */,
+			);
+			name = "Pods-PQChartView_Example";
+			path = "Target Support Files/Pods-PQChartView_Example";
+			sourceTree = "<group>";
+		};
+		AB47B7438A79418F789E3C0CE0EF70AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E72EC8D3BAFD04F5F8D9AA99BD2E821 /* PQChartView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E86ECD9B7943053DA260D46FF942D915 /* Pods-PQChartView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				997F7D5CBF1B136DE39F974D48EB528A /* Info.plist */,
+				9A5CA2510BB7DE5A7ED27771CE056EA4 /* Pods-PQChartView_Tests.modulemap */,
+				E028FFF4EF8870667F591F275716F9A3 /* Pods-PQChartView_Tests-acknowledgements.markdown */,
+				E0E26D47EC351C2414749413C1CA0B71 /* Pods-PQChartView_Tests-acknowledgements.plist */,
+				75C6E2C60AAF9BA494A264AF74F3B846 /* Pods-PQChartView_Tests-dummy.m */,
+				842C966747A68D43002820CA54DAA885 /* Pods-PQChartView_Tests-frameworks.sh */,
+				1F4466F8D543F15BCDC99DEC5B5A79D3 /* Pods-PQChartView_Tests-resources.sh */,
+				A02313A926F8C004DA763E24FBD4D806 /* Pods-PQChartView_Tests-umbrella.h */,
+				25C37A02EDE80A4E96E231C1CCD8768F /* Pods-PQChartView_Tests.debug.xcconfig */,
+				1C42CE0B11E7706D40E7608F15E03710 /* Pods-PQChartView_Tests.release.xcconfig */,
+			);
+			name = "Pods-PQChartView_Tests";
+			path = "Target Support Files/Pods-PQChartView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FE9E0AC0AFE22968AFCB1525F683211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A67133A18B17A3C0DF1247EC9B414 /* PQChartPoint.h in Headers */,
+				4A9BEA18C5450718117008E5BB2D8F42 /* PQChartView-umbrella.h in Headers */,
+				3D14F744E3DC1ADF3622E0E80C6CF30F /* PQChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D810858CBA60113026875E5ABAB6CCD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64FCE114C451D82AB3415AF9B181937 /* Pods-PQChartView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8422F8A63C1E7D97C7CBFC2B19A6CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B34F47DF62101B0D5696C8EF885642 /* Pods-PQChartView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C227231B2F0B9572884675FDCD34787B /* PQChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C620EA520F715155C015C1323E888496 /* Build configuration list for PBXNativeTarget "PQChartView" */;
+			buildPhases = (
+				1FE9E0AC0AFE22968AFCB1525F683211 /* Headers */,
+				971FBDBDE51917B974909D9020F7A0A3 /* Sources */,
+				5BD04A41CB91030CADC687739E362C22 /* Frameworks */,
+				93B04FA89179DDD3EF54494AE61D4929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PQChartView;
+			productName = PQChartView;
+			productReference = B4A754D4868E53EEAA71F472AC101A79 /* PQChartView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDEC76740E18D20D066D70A0D60D61E /* Build configuration list for PBXNativeTarget "Pods-PQChartView_Example" */;
+			buildPhases = (
+				FD8422F8A63C1E7D97C7CBFC2B19A6CE /* Headers */,
+				2361CE56EC073AD31F592AAA9BFCD176 /* Sources */,
+				A97B5F95782832C400EC96C870662E99 /* Frameworks */,
+				D38EA142563D8C981DB7B9E20661F6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BB4A0D8FA311251BC793131B52481C /* PBXTargetDependency */,
+			);
+			name = "Pods-PQChartView_Example";
+			productName = "Pods-PQChartView_Example";
+			productReference = 1DA990E359B277673019B789B4A671BA /* Pods_PQChartView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF1CBFA0F68994322FC4F651B255DCB6 /* Pods-PQChartView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69511A4406F9C16E20603EFAEAD8DC3C /* Build configuration list for PBXNativeTarget "Pods-PQChartView_Tests" */;
+			buildPhases = (
+				D810858CBA60113026875E5ABAB6CCD5 /* Headers */,
+				A1FE4ED089B65C0CB7243100D9BE70B2 /* Sources */,
+				06216038FC31DD839624F7FCCCF81063 /* Frameworks */,
+				AFC7FCC4455D1EC5F4E1A160281B64ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464354D6F391795C17AA13422D1F9C40 /* PBXTargetDependency */,
+			);
+			name = "Pods-PQChartView_Tests";
+			productName = "Pods-PQChartView_Tests";
+			productReference = 4BC527C81920E4CA1EC79659A5321122 /* Pods_PQChartView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 357DEDD5E6E145FFE36E0F028158D987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */,
+				FF1CBFA0F68994322FC4F651B255DCB6 /* Pods-PQChartView_Tests */,
+				C227231B2F0B9572884675FDCD34787B /* PQChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B04FA89179DDD3EF54494AE61D4929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC7FCC4455D1EC5F4E1A160281B64ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38EA142563D8C981DB7B9E20661F6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2361CE56EC073AD31F592AAA9BFCD176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FA0C95BC261093075BCCAD37355870 /* Pods-PQChartView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971FBDBDE51917B974909D9020F7A0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AF1ABDE1C9B0B7D2A8F45242661AE /* PQChartPoint.m in Sources */,
+				A3BD00F03013BE58B5C656F2AB0BDE64 /* PQChartView-dummy.m in Sources */,
+				7F185517218519E3B536E6807165EC97 /* PQChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE4ED089B65C0CB7243100D9BE70B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E283CDB23426D9C4ADA162668DBAA113 /* Pods-PQChartView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BB4A0D8FA311251BC793131B52481C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PQChartView;
+			target = C227231B2F0B9572884675FDCD34787B /* PQChartView */;
+			targetProxy = 03C0C665E73E779B57B5DCFAB5167AF9 /* PBXContainerItemProxy */;
+		};
+		464354D6F391795C17AA13422D1F9C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PQChartView_Example";
+			target = C82D828A6B8AF5C467A56086F14786F1 /* Pods-PQChartView_Example */;
+			targetProxy = 342AA3212FBA219157D24D13754ACA42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		053B8B9BB2ECB9F7A7AA9DC90FD443EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC12B812E95D606297D98E4E56A53BF /* Pods-PQChartView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQChartView_Example/Pods-PQChartView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AC01044720F38C9B189B8273406914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D05F85BC5FB9ABBB1799E490255416 /* Pods-PQChartView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQChartView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQChartView_Example/Pods-PQChartView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E0FA7A23686FB0A50A44AFE8269136A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PQChartView/PQChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PQChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PQChartView/PQChartView.modulemap";
+				PRODUCT_MODULE_NAME = PQChartView;
+				PRODUCT_NAME = PQChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60D9AB086D05A41269903F034AEC9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA63C5E2E5C0B9337EDE6E3304FFE48 /* PQChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PQChartView/PQChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PQChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PQChartView/PQChartView.modulemap";
+				PRODUCT_MODULE_NAME = PQChartView;
+				PRODUCT_NAME = PQChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6CC03826A0E68E0772B9B82C4F925C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C42CE0B11E7706D40E7608F15E03710 /* Pods-PQChartView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQChartView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQChartView_Tests/Pods-PQChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D275B73BC0CB3DFDA6AEDF5BF7317457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C37A02EDE80A4E96E231C1CCD8768F /* Pods-PQChartView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQChartView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQChartView_Tests/Pods-PQChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDEC76740E18D20D066D70A0D60D61E /* Build configuration list for PBXNativeTarget "Pods-PQChartView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053B8B9BB2ECB9F7A7AA9DC90FD443EB /* Debug */,
+				4AC01044720F38C9B189B8273406914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69511A4406F9C16E20603EFAEAD8DC3C /* Build configuration list for PBXNativeTarget "Pods-PQChartView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D275B73BC0CB3DFDA6AEDF5BF7317457 /* Debug */,
+				B6CC03826A0E68E0772B9B82C4F925C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C620EA520F715155C015C1323E888496 /* Build configuration list for PBXNativeTarget "PQChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0FA7A23686FB0A50A44AFE8269136A /* Debug */,
+				60D9AB086D05A41269903F034AEC9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

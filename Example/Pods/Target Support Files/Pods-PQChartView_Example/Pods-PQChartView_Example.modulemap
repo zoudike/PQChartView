@@ -1,0 +1,6 @@
+framework module Pods_PQChartView_Example {
+  umbrella header "Pods-PQChartView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

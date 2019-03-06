@@ -1,0 +1,6 @@
+framework module Pods_PQChartView_Tests {
+  umbrella header "Pods-PQChartView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
